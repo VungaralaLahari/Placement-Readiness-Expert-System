@@ -4,7 +4,7 @@ from expert_system import PlacementExpertSystem
 st.set_page_config(page_title="Campus Placement Predictor", layout="wide")
 
 st.markdown("""
-# Campus Placement Predictor
+# Placement Readiness Expert System
 ---
 """)
 
