@@ -134,6 +134,6 @@ The system displays:
 - Detailed metric-wise evaluation
 - Personalized action plan
 
-(Refer to the images in the `outputs/` folder)
+(Refer to the images in the `Outputs/` folder)
 
 
