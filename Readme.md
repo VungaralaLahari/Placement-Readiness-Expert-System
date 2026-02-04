@@ -87,11 +87,53 @@ The focus is on **transparent, explainable decision logic**.
 ---
 
 ## Project Structure
-
+ ```
 Placement Readiness Expert System/
 │
-├── expertsystem.py # Core expert system logic
-├── app.py # Streamlit UI
-├── requirements.txt
-├── README.md
-└── outputs(1,2,3)
+├── expert_system.py      # Core expert system logic
+├── streamlit_app.py               # Streamlit UI
+├── requirements.txt     # Project dependencies
+├── Readme.md            # Project documentation
+└── Outputs/             # Sample output screenshots
+    ├── Output1.png
+    ├── Output2.png
+    └── Output3.png
+```
+---
+
+## How to Run the Project
+
+To run this expert system locally on your machine, follow these steps:
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/VungaralaLahari/Placement-Readiness-Expert-System.git
+cd Placement-Readiness-Expert-System
+```
+
+### 2. Install dependencies
+Make sure you have Python installed. Then run:
+
+pip install -r requirements.txt
+
+### 3. Run the Streamlit app
+streamlit run app.py
+
+### 4. Open the App
+After running the command above, Streamlit will open a browser window automatically.
+If it doesn’t, open the URL shown in the terminal .
+
+Once open, enter student profile details and click Analyze Placement Readiness to see the results.
+
+## Sample Output
+
+The system displays:
+- Total readiness score
+- Final placement status
+- Detailed metric-wise evaluation
+- Personalized action plan
+
+(Refer to the images in the `outputs/` folder)
+
+
